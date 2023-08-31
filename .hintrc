@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "meta-charset-utf-8": "off",
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 115",
+    "not chrome <= 116",
+    "not edge <= 115",
+    "not ios_saf <= 16.5",
+    "not opera <= 101",
+    "not safari <= 16.5",
+    "not samsung <= 21"
+  ]
+}
